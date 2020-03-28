@@ -36,10 +36,18 @@ module.exports = {
       .where('id', id)
       .select('ong_id')
       .first();
+    
+    // Acrescentei a verificação para o caso de ser passado um ID que não existe
+    if(!incident){
+      return response.status(404).json({error: 'ID not found'});
+    }
+    
     if(incident.ong_id != ong_id){
       return response.status(401).json({error: 'Operation not permitted'});
     }
+    
     await connection('incidents').where('id', id).delete();
+    
     return response.status(204).send();
   }
   
