@@ -43,16 +43,19 @@ async function handleNewIncident(e) {
         </section>
 
         <form onSubmit={handleNewIncident} >
+          
           <input 
             placeholder="Título do caso"
             value={title}
             onChange={e => setTitle(e.target.value)} 
           />
+
           <textarea 
             placeholder="Descrição do caso"
             value={description}
             onChange={e => setDescription(e.target.value)} 
           ></textarea>
+
           <input 
             placeholder="Valor em Reais"
             value={value}
@@ -60,6 +63,7 @@ async function handleNewIncident(e) {
           />
           
           <button type="submit" className="button">Cadastrar</button>
+
         </form>
       </div>
 
