@@ -62,6 +62,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React-dom](https://pt-br.reactjs.org/docs/react-dom.html)
 - [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [Intl](https://www.npmjs.com/package/intl)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Supertest](https://www.npmjs.com/package/supertest)
 
 ## :trophy: Minhas Implementações
 
