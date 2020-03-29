@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  🚀 Semana OmniStack 11.0 / Be The Hero
+  :rocket: Semana OmniStack 11.0 / Be The Hero
 </h2>
 
 <p align="center">
@@ -23,9 +23,9 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Minhas-Implementações">Minhas Implementações</a>
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#trophy-minhas-implementações">Minhas Implementações</a>
 </p>
 
 <br>
@@ -34,7 +34,7 @@
   <img alt="Heroes" src="github/heroes.png" width="">
 </p>
 
-## 💻 Projeto
+## :computer: Projeto
 
 <strong>Be The Hero</strong> é um projeto da <strong>11º edição da Semana OmniStack</strong> que é ministrada pela RocketSeat. Essa foi a minha primeira participação.
 
@@ -52,7 +52,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+- [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+- [Express](https://expressjs.com/pt-br/)
 - [Celebrate](https://www.npmjs.com/package/celebrate)
+- [Knex](http://knexjs.org/)
+- [SQLite3](https://www.sqlite.org/version3.html)
+- [React Icons](https://www.npmjs.com/package/react-icons)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React-dom](https://pt-br.reactjs.org/docs/react-dom.html)
+- [React-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [Intl](https://www.npmjs.com/package/intl)
 
 ## :trophy: Minhas Implementações
 
