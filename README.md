@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  🚀 Semana OmniStack 11.0 / Be The Hero
+  :rocket: Semana OmniStack 11.0 / Be The Hero
 </h2>
 
 <p align="center">
@@ -23,9 +23,9 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Minhas-Implementações">Minhas Implementações</a>
+  <a href="#-rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-trophy-minhas-implementações">Minhas Implementações</a>
 </p>
 
 <br>
@@ -34,7 +34,7 @@
   <img alt="Heroes" src="github/heroes.png" width="">
 </p>
 
-## 💻 Projeto
+## :computer: Projeto
 
 <strong>Be The Hero</strong> é um projeto da <strong>11º edição da Semana OmniStack</strong> que é ministrada pela RocketSeat. Essa foi a minha primeira participação.
 
