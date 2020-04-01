@@ -33,12 +33,16 @@ async function handleNewIncident(e) {
       <div className="content">
         
         <section>
-          <img src={logoImg} alt=""/>
+          
+          <Link className="back-link" to="/">
+            <img src={logoImg} alt="Be The Hero"/>
+          </Link>
+          
           <h1>Cadastrar novo caso</h1>
           <p>Descreva o caso detalhadamente e econtre um herói para resolver isso.</p>
 
           <Link className="back-link" to="/profile">
-            <FiArrowLeft size={16} color="#E02041"/>Voltar para home
+            <FiArrowLeft size={16} color="#E02041"/>Voltar para Profile
           </Link>
         </section>
 

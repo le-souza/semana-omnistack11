@@ -46,7 +46,10 @@ export default function Profile() {
     <div className="profile-container">
       
       <header>
-        <img src={logoImg} alt="Be The Hero"/>
+        
+        <Link className="back-link" to="/">
+          <img src={logoImg} alt="Be The Hero"/>
+        </Link>
         
         <span>Bem vindo, {ongName}</span>
         

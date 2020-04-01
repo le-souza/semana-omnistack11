@@ -38,12 +38,16 @@ export default function Register() {
       <div className="content">
         
         <section>
-          <img src={logoImg} alt=""/>
+          
+          <Link className="back-link" to="/">
+            <img src={logoImg} alt="Be The Hero"/>
+          </Link>
+          
           <h1>Cadastro</h1>
           <p>Faça se cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
 
           <Link className="back-link" to="/">
-            <FiArrowLeft size={16} color="#E02041"/>Não Tenho cadastro
+            <FiArrowLeft size={16} color="#E02041"/>Voltar para Logon
           </Link>
         </section>
 

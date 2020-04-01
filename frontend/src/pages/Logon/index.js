@@ -24,26 +24,36 @@ export default function Logon() {
   }
 
   return (
-    <div className="logon-container">
+    <div className="logon-container" onLoad={(e) => setId(localStorage.getItem('ongId'))} >
+      
       <section className="form">
-        <img src={logoImg} alt="Be The Hero"/>
+        
+        <Link className="back-link" to="/">
+          <img src={logoImg} alt="Be The Hero"/>
+        </Link>
 
         <form onSubmit={handleLogin}>
+          
           <h1>Faça seu logon</h1>
+          
           <input type="text"
             placeholder="Sua ID"
             value={id}
             onChange={e => setId(e.target.value) }
           />
+
           <button type="submit" className='button' >Entrar</button>
+          
           <Link className="back-link" to="/register">
             <FiLogIn size={16} color="#E02041"/>
             Não Tenho cadastro
           </Link>
         </form>
+
       </section>
 
       <img src={heroesImg} alt="Heroes"/>
+
     </div>
   );
 }
